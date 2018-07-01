@@ -341,7 +341,7 @@ public class AnimNavigationDrawer extends RelativeLayout{
         menuIV.setImageState(stateSet,true);
         containerCV.setCardElevation((float) 100.0);
         containerCV.setRadius((float)60.0);
-        appbarTitleTV.animate().translationX(centerX+menuIV.getWidth()+menuIV.getWidth()/4+appbarTitleTV.getWidth()/2-appbarRL.getWidth()/2).start();
+       // appbarTitleTV.animate().translationX(centerX+menuIV.getWidth()+menuIV.getWidth()/4+appbarTitleTV.getWidth()/2-appbarRL.getWidth()/2).start();
         containerCV.animate().translationX(rootLayout.getX() +(rootLayout.getWidth() / 8)+ (rootLayout.getWidth() / 2) ).translationY(250).setDuration(500).start();
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
